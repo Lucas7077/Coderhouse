@@ -44,27 +44,6 @@ body {
     font-size: 25px;
     border-radius: 05px;
 }
-/*
-.imgPrimera{
-    position: relative;
-    left: 500px;
-}
-
-.imgMasVendido {
-    position: relative;
-    left: 80px;
-}
-
-.imgCatalogo {
-    position: relative;
-    left: 280px;
-}
-
-.imgUltimoModelo {
-    position: relative;
-    left: 500px;
-}
-*/
 .estiloImagenes {
     border: solid 15px #e2cf8f;
     border-radius: 5px;
@@ -296,3 +275,4 @@ gallery{
 .imgOrden:hover{
     filter: sepia(60%);
 }
+
