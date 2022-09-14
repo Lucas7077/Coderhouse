@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,78 +9,90 @@
     <link rel="Shortcut icon" href="./Imagenes/LogoPagina.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- CSS only -->
     <link rel="stylesheet" type="text/css" href="Iconos/fontawesome/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
     <title>LingerieSophia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
+
 <body>
-    <header>
-        <H2 class="titulo"><a href="./index.html" id="tituloHeader" >LingerieSophia</a></H2>
-        <nav>
-            <ul class="barraNavegable">
-                <li>
-                    <a href="./Paginas/Ultimos modelos.html">Ultimos conjuntos</a>
-                </li>
-                <li>
-                   <a href="./Paginas/Modelos.html">Catalogo</a>
-                </li>
-                <li>
-                   <a href="./Paginas/nosotras.html">Nosotras</a>
-                </li>
-                <li>
-                  <a href="./Paginas/preguntas.html">Preguntas Frecuentes</a>  
-                </li>
-                <li>
-                 <a href="./Paginas/contacto.html">Contacto</a>  
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <br>
-        <br>
-        <br>
-        
-        <section class="indexDisplay">
-        <picture class="imgOrden">
-            <img class="imgPrimera estiloImagenes" src="./Imagenes/primer imagen.jpg" alt="LingerieSophia" width="" height="600">
-        </picture>
+    <div class="container-fluid">
+        <header class="row">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">LingerieSophia</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./Paginas/Ultimos modelos.html">Ultimos Modelos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Catalogo Digital</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nosotras</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Preguntas Frecuentes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-        <picture class="imgOrden">  
-            <img class="estiloImagenes imgOrden" src="./Imagenes/mas vendido.jpg" alt="Mas Vendido" width="" height="400" >
-        </picture>  
+        <main>
+            <section class="posicion">
+                <div class="card  row col-6 mt-5 anchoCard">
+                    <img src="./Imagenes/Bootstrap 1.jpg" class="card-img" alt="LingerieSophia" height="600px"
+                        width="300px">
+                    <div class="card-img-overlay orden">
+                        <h5 class="card-title titulo">LingerieSophia</h5>
+                    </div>
+                </div>
+            </section>
+            <div class="mt-5 mb-5 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Imagenes/boots 2.jpg" class="card-img-top" alt="modelo mas vendido">
+                    <div class="card-body">
+                        <h5 class="card-title">MODELO MAS VENDIDO!</h5>
+                        <a href="#" class="btn btn-outline-warning">Comprar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Imagenes/Boots 3.jpg" class="card-img-top" alt="modelo mas vendido">
+                    <div class="card-body">
+                        <h5 class="card-title">Nuestro Catalogo Digital</h5>
+                        <a href="#" class="btn btn-outline-warning">Visitar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Imagenes/Boots 4.jpg" class="card-img-top" alt="modelo mas vendido">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Ultimos Modelos</h5>
+                        <a href="#" class="btn btn-outline-warning">Visitar</a>
+                    </div>
+                </div>
+            </div>
 
-        <picture class="imgOrden">
-            <img class="estiloImagenes imgOrden" src="./Imagenes/catalogo.jpg" alt="Catalogo" width="" height="400">
-        </picture>
-
-        <picture class="imgOrden">
-            <img class="estiloImagenes imgOrden" src="./Imagenes/ultimomodelo.jpg" alt="Ultimo Modelo" width="" height="400">
-        </picture>
-        </section>
-    </main>
-
-    <footer class="pieDePagina">
-        <a href="https://wa.me/message/NLQGRDTCKSE6L1">
-            <i class="fa-brands fa-whatsapp icono iconoWsp"></i>
-        </a>
-
-    
-    
-        <a href="https://www.instagram.com/lingerie.sophiaok/"> 
-            <i class="fa-brands fa-instagram icono iconoInstagram"></i>
-        </a>
 
 
-       
 
-        <span>
-            <p class="divCreador">Creado por Lucas Simonetta.</p> 
-         </span>
-
-         </footer>
-
-   
-    
+        </main>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
