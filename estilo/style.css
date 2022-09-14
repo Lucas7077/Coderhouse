@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400&display=swap');
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Libre Franklin', sans-serif;
-    background-color: #e9ffcc;
-}
 
-.navegable{
-    list-style-type: none;
+nav {
+    background-color: blueviolet;
 }
