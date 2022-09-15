@@ -52,3 +52,20 @@ body {
     color: white;
 
 }
+
+.titulo{
+    color: rgb(134, 27, 134);
+    text-align: center;
+    display: flex;
+    justify-items: center;
+}
+
+.carousel-item{
+    display: flex;
+    justify-content: center;
+}
+
+.ordencarrucel{
+    display: flex;
+    justify-content: center;
+}
