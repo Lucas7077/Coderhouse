@@ -4,95 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilo/style.css">
-    <link rel="Shortcut icon" href="./Imagenes/LogoPagina.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- CSS only -->
-    <link rel="stylesheet" type="text/css" href="Iconos/fontawesome/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a52a4cddbf.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Libre+Franklin:wght@300&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../estilo/style.css">
+    <link rel="shortcut icon" href="../Imagenes/LogoPagina.jpg" type="image/x-icon">
     <title>LingerieSophia</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header class="row">
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">LingerieSophia</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Ultimos Modelos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Catalogo Digital</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Nosotras</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Preguntas Frecuentes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-    </div>
-    <main>
-        <h2 class=" titulo mt-5 mb-5">Nuestros Ultimos Modelos!</h2>
-        <div id="carouselExampleControls" class="carousel slide mt-5 mb-5" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../Imagenes/Boots 5.jpg" class="d-block w-35" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../Imagenes/Boots 6.jpg" class="d-block w-35" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../Imagenes/Boots 7.jpg" class="d-block w-35" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../Imagenes/Boots 8.jpg" class="d-block w-35" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../Imagenes/Boots 9.jpg" class="d-block w-35" alt="...">
-                </div>
+    <header>
+        <nav class="barraNavegable">
+            <div>
+                <h3><a href="../index.html" class="logo__barra">LingerieSophia</a></h3>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+            <div>
+                <ul class="lista">
+                    <li class="lista__link"><a href="./Paginas/Modelos.html">Catalogo Digital</a></li>
+                    <li class="lista__link"><a href="./Paginas/Ultimos modelos.html">Ultimos Lanzamientos</a></li>
+                    <li class="lista__link"><a href="./Paginas/nosotras.html">Nosotras</a></li>
+                    <li class="lista__link"><a href="./Paginas/preguntas.html">Preguntas Frecuentes</a></li>
+                    <li class="lista__link"><a href="./Paginas/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-
-
-
+    <main>
+        <section class="galeria__conjuntos">
+            <div>
+                <img class="img img1" src="../Imagenes/boots 2.jpg" alt="Conjunto1">
+            </div>
+            <div>
+                <img class="img img2" src="../Imagenes/Boots 3.jpg" alt="Conjunto2">
+            </div>
+            <div >
+                <img class="img img3" src="../Imagenes/Boots 4.jpg" alt="Conjunto3">
+            </div>
+            <div >
+                <img class="img img4" src="../Imagenes/Boots 5.jpg" alt="Conjunto4">
+            </div>
+            <div>
+                <img class="img img5" src="../Imagenes/Boots 6.jpg" alt="Conjunto5">
+            </div>
+            <div >
+                <img class="img img6" src="../Imagenes/boots 7.jpg" alt="Conjunto6">
+            </div>
+            <div >
+                <img class="img img7" src="../Imagenes/boots 8.jpg" alt="Conjunto7">
+            </div>
+            <div>
+                <img class="img img8" src="../Imagenes/boots 9.jpg" alt="Conjunto8">
+            </div>
+            <div >
+                <img class="img img9" src="../Imagenes/boots 10.jpg" alt="Conjunto9">
+            </div>
+            <div >
+                <img class="img img10" src="../Imagenes/boots 11.jpg" alt="Conjunto10">
+            </div>
+            <div>
+                <img class="img img11" src="../Imagenes/boots 12.jpg" alt="Conjunto11">
+            </div>
+            <div>
+                <img class="img img12" src="../Imagenes/boots 13.jpg" alt="Conjunto12">
+            </div>
         </section>
     </main>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
-    </script>
-
+    <footer>
+        <a href="https://www.whatsapp.com/catalog/5493515460448/?app_absent=0">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/lingerie.sophiaok/">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <p>
+            <i class="fa-solid fa-location-dot"> Avenida Capdevila 1058</i>
+        </p>
+        <p>
+            <i class="fa-solid fa-location-dot">Avenida Colon 3490</i>
+        </p>
+    </footer>
 </body>
 
 </html>
