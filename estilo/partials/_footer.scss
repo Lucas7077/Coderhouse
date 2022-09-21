@@ -1,0 +1,17 @@
+footer{
+    background-color: #F4DFE8;
+    padding-bottom: 50px;
+    font-size: 30px;
+    gap: 15px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    a{
+        color: black;
+        margin-top: 15px;
+    }
+    p{
+        font-size: 20px;
+    }        
+}

@@ -1,1 +1,102 @@
-/*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hind Madurai", sans-serif;
+  box-sizing: border-box;
+}
+* a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #f9f4f4;
+}
+header .barraNavegable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+header .barraNavegable .logo__barra {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  color: #8E86DC;
+}
+header .barraNavegable ul {
+  display: flex;
+}
+header .barraNavegable ul li {
+  list-style-type: none;
+  padding: 15px;
+}
+header .barraNavegable ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  transition: all 0.2s;
+}
+header .barraNavegable ul li a:hover {
+  color: #8E86DC;
+  border-bottom: 2px #8E86DC solid;
+  font-size: 18px;
+}
+
+.lista__link a:hover {
+  color: #8E86DC;
+  border-bottom: 2px #8E86DC solid;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #F4DFE8;
+  padding-bottom: 50px;
+  font-size: 30px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer a {
+  color: black;
+  margin-top: 15px;
+}
+footer p {
+  font-size: 20px;
+}
+
+.contenedor {
+  width: 95%;
+  background-color: #f9f4f4;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.contenedor .img__primera {
+  height: 500px;
+  width: 650px;
+  padding: 5px;
+}
+
+.texto__index {
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenedorDos {
+  width: 95%;
+  background-color: #f9f4f4;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.contenedorDos .img__segunda {
+  height: 500px;
+  width: 625px;
+  margin-top: 5px;
+}/*# sourceMappingURL=styles.css.map */
