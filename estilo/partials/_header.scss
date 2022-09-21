@@ -1,0 +1,38 @@
+header{
+    background-color: #f9f4f4;
+    .barraNavegable{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        .logo__barra{
+            font-family: 'Pacifico', cursive;
+            font-size: 40px;
+            color: #8E86DC
+        }
+        ul{
+            display: flex;
+            li{
+                list-style-type: none;
+                padding: 15px;
+                a {
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: rgb(0, 0, 0);
+                    transition: all .2s;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.lista__link a:hover{
+    color: #8E86DC;
+    border-bottom: 2px #8E86DC solid;
+    font-size: 18px;
+}
