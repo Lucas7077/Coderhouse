@@ -1,5 +1,5 @@
 header{
-    background-color: $colorFondoPrimario;
+    background-color: #f9f4f4;
     .barraNavegable{
         display: flex;
         justify-content: space-between;
@@ -36,8 +36,5 @@ header{
 
 
 
-.lista__link a:hover{
-    color: #8E86DC;
-    border-bottom: 2px #8E86DC solid;
-    font-size: 18px;
-}
+
+

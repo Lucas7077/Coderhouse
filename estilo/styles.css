@@ -41,12 +41,6 @@ header .barraNavegable ul li a:hover {
   font-size: 18px;
 }
 
-.lista__link a:hover {
-  color: #8E86DC;
-  border-bottom: 2px #8E86DC solid;
-  font-size: 18px;
-}
-
 footer {
   background-color: #F4DFE8;
   padding-bottom: 50px;
