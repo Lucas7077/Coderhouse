@@ -1,12 +1,12 @@
 header{
-    background-color: $colorFondoPrimario;
+    background-color: map-get($colores, colorfondoprimario);
     .barraNavegable{
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px;
         .logo__barra{
-            font-family: 'Pacifico', cursive;
+            font-family: map-get($fuente, fuenteLogo);
             font-size: 40px;
             color: $colorVioleta;
         }
@@ -21,7 +21,7 @@ header{
                     color: rgb(0, 0, 0);
                     transition: all .2s;
                     &:hover{
-                        color: #8E86DC;
+                        color: map-get($colores, colorvioleta);
                         border-bottom: 2px #8E86DC solid;
                         font-size: 18px;
                     }
@@ -36,8 +36,4 @@ header{
 
 
 
-.lista__link a:hover{
-    color: #8E86DC;
-    border-bottom: 2px #8E86DC solid;
-    font-size: 18px;
-}
+

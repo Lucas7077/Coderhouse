@@ -1,5 +1,5 @@
 footer{
-    background-color: #F4DFE8;
+    background-color: map-get($colores, colorfooter);
     padding-bottom: 50px;
     font-size: 30px;
     gap: 15px;
