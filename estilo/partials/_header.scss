@@ -1,14 +1,14 @@
 header{
-    background-color: map-get($colores, colorfondoprimario);
+    background-color: map-get($colores, backgroundHeader);
     .barraNavegable{
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px;
         .logo__barra{
-            font-family: map-get($fuente, fuenteLogo);
+            font-family: map-get($fuentes, fuenteLogo);
             font-size: 40px;
-            color: $colorVioleta;
+            color: map-get($colores, backgroundHeader);
         }
         ul{
             display: flex;
@@ -16,12 +16,9 @@ header{
                 list-style-type: none;
                 padding: 15px;
                 a {
-                    text-decoration: none;
-                    cursor: pointer;
-                    color: rgb(0, 0, 0);
-                    transition: all .2s;
+                @include headerA ($colorblack:rgb(0, 0, 0));
                     &:hover{
-                        color: map-get($colores, colorvioleta);
+                        color:rgb(142, 134, 220);
                         border-bottom: 2px #8E86DC solid;
                         font-size: 18px;
                     }
@@ -30,10 +27,3 @@ header{
         }
     }
 }
-
-
-
-
-
-
-

@@ -1,0 +1,18 @@
+%galeriaExtend{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8"
+    "img9 img10 img11 img12";
+}
+
+%indexContenedor {
+    width: 95%;
+    background-color:rgb( 249, 244, 244);
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}

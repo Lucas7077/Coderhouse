@@ -1,14 +1,7 @@
-
 .galeria__conjuntos{
     width: 90%;
     margin: 15px auto;
-    display: grid;
-    grid-template-columns:repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "img1 img2 img3 img4"
-    "img5 img6 img7 img8"
-    "img9 img10 img11 img12";
+    @extend %galeriaExtend;
     gap: 5px;
     div {
         overflow: hidden;
@@ -58,9 +51,4 @@
             grid-area: img12;
         }
     }
-    
 }
-
-
-
-

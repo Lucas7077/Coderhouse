@@ -1,12 +1,7 @@
 .contenedor{
-    width: 95%;
-    background-color:map-get($colores, colorfondoprimario);
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    @extend %indexContenedor;
     .img__primera{
-        @extend %imgindex;
+        height: 500px;
         width: 650px;
         padding: 5px;
     }
@@ -21,17 +16,10 @@
 }
 
 .contenedorDos{
-    width: 95%;
-    background-color:map-get($colores, colorfondoprimario);
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    @extend %indexContenedor;
     .img__segunda{
-        @extend %imgindex;
+        height: 500px;
         width: 625px;
         margin-top: 5px;
     }
 }
-
-

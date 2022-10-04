@@ -1,9 +1,10 @@
-$colores: (    
-    colorfondoprimario: rgb( 249, 244, 244),
-    colorvioleta: rgb(142, 134, 220),
-    colorfooter: rgb(244, 223, 232),
+$colores:(
+    backgroundHeader:rgb( 249, 244, 244),
+    colorTextVioleta: rgb(142, 134, 220),
+    backgroundFooter:rgb(244, 223, 232)
 );
 
-$fuente: (
-    fuenteLogo: 'Pacifico', cursive
+$fuentes:(
+fuenteLogo: 'Pacifico', cursive,
+fuenteBody:'Hind Madurai', sans-serif
 );

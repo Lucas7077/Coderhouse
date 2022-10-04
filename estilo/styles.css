@@ -1,75 +1,3 @@
-.galeria__conjuntos {
-  width: 90%;
-  margin: 15px auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "img1 img2 img3 img4" "img5 img6 img7 img8" "img9 img10 img11 img12";
-  gap: 5px;
-}
-
-.galeria__conjuntos div {
-  overflow: hidden;
-}
-
-.img {
-  height: 100%;
-  width: 100%;
-  cursor: pointer;
-}
-
-.img:hover {
-  transform: scale(1.3);
-}
-
-.img1 {
-  grid-area: img1;
-}
-
-.img2 {
-  grid-area: img2;
-}
-
-.img3 {
-  grid-area: img3;
-}
-
-.img4 {
-  grid-area: img4;
-}
-
-.img5 {
-  grid-area: img5;
-}
-
-.img6 {
-  grid-area: img6;
-}
-
-.img7 {
-  grid-area: img7;
-}
-
-.img8 {
-  grid-area: img8;
-}
-
-.img9 {
-  grid-area: img9;
-}
-
-.img10 {
-  grid-area: img10;
-}
-
-.img11 {
-  grid-area: img11;
-}
-
-.img12 {
-  grid-area: img12;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -81,7 +9,7 @@
 }
 
 header {
-  background-color: #f9f4f4;
+  background-color: rgb(249, 244, 244);
 }
 header .barraNavegable {
   display: flex;
@@ -92,7 +20,7 @@ header .barraNavegable {
 header .barraNavegable .logo__barra {
   font-family: "Pacifico", cursive;
   font-size: 40px;
-  color: #8E86DC;
+  color: rgb(142, 134, 220);
 }
 header .barraNavegable ul {
   display: flex;
@@ -108,19 +36,13 @@ header .barraNavegable ul li a {
   transition: all 0.2s;
 }
 header .barraNavegable ul li a:hover {
-  color: #8E86DC;
-  border-bottom: 2px #8E86DC solid;
-  font-size: 18px;
-}
-
-.lista__link a:hover {
-  color: #8E86DC;
+  color: rgb(142, 134, 220);
   border-bottom: 2px #8E86DC solid;
   font-size: 18px;
 }
 
 footer {
-  background-color: #F4DFE8;
+  background-color: rgb(244, 223, 232);
   padding-bottom: 50px;
   font-size: 30px;
   gap: 15px;
@@ -139,7 +61,7 @@ footer p {
 
 .contenedor {
   width: 95%;
-  background-color: #f9f4f4;
+  background-color: rgb(249, 244, 244);
   margin: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -161,7 +83,7 @@ footer p {
 
 .contenedorDos {
   width: 95%;
-  background-color: #f9f4f4;
+  background-color: rgb(249, 244, 244);
   margin: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -171,4 +93,146 @@ footer p {
   height: 500px;
   width: 625px;
   margin-top: 5px;
+}
+
+.galeria__conjuntos {
+  width: 90%;
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "img1 img2 img3 img4" "img5 img6 img7 img8" "img9 img10 img11 img12";
+  gap: 5px;
+}
+.galeria__conjuntos div {
+  overflow: hidden;
+}
+.galeria__conjuntos div .img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.galeria__conjuntos div .img:hover {
+  transform: scale(1.3);
+}
+.galeria__conjuntos div .img1 {
+  grid-area: img1;
+}
+.galeria__conjuntos div .img2 {
+  grid-area: img2;
+}
+.galeria__conjuntos div .img3 {
+  grid-area: img3;
+}
+.galeria__conjuntos div .img4 {
+  grid-area: img4;
+}
+.galeria__conjuntos div .img5 {
+  grid-area: img5;
+}
+.galeria__conjuntos div .img6 {
+  grid-area: img6;
+}
+.galeria__conjuntos div .img7 {
+  grid-area: img7;
+}
+.galeria__conjuntos div .img8 {
+  grid-area: img8;
+}
+.galeria__conjuntos div .img9 {
+  grid-area: img9;
+}
+.galeria__conjuntos div .img10 {
+  grid-area: img10;
+}
+.galeria__conjuntos div .img11 {
+  grid-area: img11;
+}
+.galeria__conjuntos div .img12 {
+  grid-area: img12;
+}
+
+.contactoBody main {
+  background-color: white;
+  color: black;
+}
+.contactoBody main .principal {
+  background-color: rgb(249, 244, 244);
+  margin: auto;
+  width: 90%;
+  overflow: hidden;
+  padding: 1em;
+  display: flex;
+  border-radius: 1em;
+  display: grid;
+  grid-auto-rows: -webkit-max-content;
+  grid-auto-rows: max-content;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 6em;
+}
+.contactoBody main .principal .figure {
+  background-color: #8E86DC;
+  overflow: hidden;
+  border-radius: 1em;
+  display: flex;
+}
+.contactoBody main .principal .figure .principalImg {
+  width: 80%;
+  margin: auto;
+  max-width: 60vw;
+}
+.contactoBody main .principal .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5em;
+  padding: 3em 0.7em;
+  text-align: center;
+}
+.contactoBody main .principal .contact .tituloForm {
+  font-size: 2.3rem;
+}
+.contactoBody main .principal .contact .formulario {
+  display: grid;
+  justify-items: center;
+  gap: 1.5em;
+}
+.contactoBody main .principal .contact .formulario .formInput {
+  width: 80%;
+  max-width: 500px;
+  outline: none;
+  border: none;
+  padding: 1em;
+  font: inherit;
+  border: 0.6em;
+}
+.contactoBody main .principal .contact .formulario .btnEnviar {
+  background-color: #8E86DC;
+  color: white;
+  font-weight: 600px;
+}
+.contactoBody main .principal .contact .formulario .btnEnviar:hover {
+  background-color: #fff;
+  color: #8E86DC;
+  border: 1px solid #8E86DC;
+}
+.contactoBody main .principal .contact .social {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-auto-columns: -webkit-max-content;
+  grid-auto-columns: max-content;
+  gap: 1em;
+}
+.contactoBody main .principal .contact .social .link .link {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 0.6em 1.5em;
+}
+.contactoBody main .principal .contact .social .link .link:hover {
+  background-color: #fff;
+}
+.contactoBody main .principal .contact .social .icon {
+  width: 30px;
+  height: 30px;
 }/*# sourceMappingURL=styles.css.map */

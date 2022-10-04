@@ -1,0 +1,6 @@
+@mixin headerA ($colorblack) {
+    text-decoration: none;
+    cursor: pointer;
+    color: $colorblack;
+    transition: all .2s;
+}
