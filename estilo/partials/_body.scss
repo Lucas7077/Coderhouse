@@ -1,9 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Hind Madurai', sans-serif;
+
     box-sizing: border-box;
-    a{
-        text-decoration: none;
+
+    body {
+        font-family: 'Hind Madurai', sans-serif;
+        padding: 90px 20px 0;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        min-height: 100vh;
+
+
+        a {
+            text-decoration: none;
+        }
     }
 }

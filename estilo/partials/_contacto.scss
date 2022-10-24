@@ -1,0 +1,98 @@
+.contactoBody {
+
+    main {
+        background-color: white;
+    color: black;
+
+        .principal {
+        background-color:  rgb( 249, 244, 244);;
+            margin: auto;
+            width: 90%;
+            overflow: hidden;
+            padding: 1em;
+            display: flex;
+            border-radius: 1em;
+            display: grid;
+            grid-auto-rows: max-content;
+            grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+            gap: 6em;
+
+            .figure {
+                background-color: #8E86DC;
+                overflow: hidden;
+                border-radius: 1em;
+                display: flex;
+
+                .principalImg {
+                    width: 80%;
+                    margin: auto;
+                    max-width: 60vw;
+                }
+            }
+
+            .contact {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1.5em;
+                padding: 3em .7em;
+                text-align: center;
+                .tituloForm {
+                    font-size: 2.3rem;
+                }
+                .formulario {
+                    display: grid;
+                    justify-items: center;
+                    gap: 1.5em;
+            
+                    .formInput {
+                        width: 80%;
+                        max-width: 500px;
+                        outline: none;
+                        border: none;
+                        padding: 1em;
+                        font: inherit;
+                        border: .6em;
+                    }
+            
+                    .btnEnviar {
+                        background-color: #8E86DC;
+                        color: white;
+                        font-weight: 600px;
+            
+                        &:hover {
+                            background-color: #fff;
+                            color: #8E86DC;
+                            border: 1px solid #8E86DC;
+                        }
+                    }
+                }
+                .social {
+                    display: grid;
+                    grid-auto-flow: column;
+                    justify-content: center;
+                    grid-auto-columns: max-content;
+                    gap: 1em;
+            
+                    .link {
+                        .link {
+                            border: 1px solid #fff;
+                            border-radius: 10px;
+                            padding: .6em 1.5em;
+            
+                            &:hover {
+                                background-color: #fff;
+                            }
+                        }
+                    }
+            
+                    .icon {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+

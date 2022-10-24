@@ -1,0 +1,98 @@
+header{
+    background-color: rgb( 249, 244, 244);
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        .bar{
+            color: rgb(142, 134, 220);
+            background: none;
+            border: none;
+            font-size: 30px;
+            padding: 0 20px;
+            line-height: 60px;
+            display: none;
+        }
+        .logo{
+            font-family: 'Pacifico', cursive;
+            color: rgb(142, 134, 220);
+            font-size: 30px;
+            padding: 0 40px;
+            line-height: 80px;
+        }
+        .nav_menu{
+            display: flex;
+            margin-right: 40px;
+            list-style: none;
+            .nav_item{
+                font-size: 18px;
+                margin: 0 10px;
+                line-height: 80px;
+                text-transform: uppercase;
+                width: max-content;
+                .nav_link{
+                    color: rgb(142, 134, 220);
+                    padding: 8px 12px;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    &:hover{
+                        color:rgb(142, 134, 220);
+                        border-bottom: 2px #8E86DC solid;
+                        transition: .5s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        padding-top: 70px;
+    
+    header{
+        height: 60px;
+        
+        .bar{
+            display: block;
+        }
+        .logo{
+            font-size: 25px;
+            padding: 0 20px;
+            line-height: 60px;
+        }
+        .nav_menu{
+            flex-direction: column;
+            align-items: center;
+            margin-right: 0;
+            background-color:  #8E86DC;
+            position: fixed;
+            left: 0;
+            top: 60px;
+            width: 100%;
+            padding: 20px 0;
+            height: calc(100% - 60px);
+            overflow-y: auto;
+            left: 100%;
+            transition: left 0.3s;
+            .nav_item{
+                line-height: 70px;
+                .nav_link{
+                    color: black;
+                    &:hover{
+                        background: none;
+                        color: rgb(127, 186, 167);
+                    }
+                }
+            }
+        }
+        .nav_visible{
+            left: 0;
+        }
+    }
+}
+}
